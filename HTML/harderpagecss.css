@@ -1,0 +1,213 @@
+@import url("./unicode.optima.ttf");
+
+html body {
+	background-image: url("./background.png"); 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+	box-sizing: border-box;
+
+}
+.timer {
+	display: flex;
+	color: #E9EC80;
+	font-family: "Castellar";
+	font-size: 32px;
+}
+.timer > playerletter + timerbar + cpuletter {
+	flex:1;
+}
+.timerfill {
+	width: 100%;
+	min-height: 100%;
+	background-color:#E9EC80;
+}
+.timerbar {
+	padding: 10px 10px 10px 10px;
+	margin: 0 160px;
+	width: 40%;
+	border: 5px solid;
+	border-color: #E9EC80;
+}
+.playerletter {
+	width: 250px;
+	margin:0 auto 0 1%;
+}
+.cpuletter {
+	width: 250px;
+	text-align: center;
+	margin:0 -1% 0 auto;
+}
+.container1 {
+	display: flex;
+	height: 200px;
+}
+.player {
+	margin: 0 auto;
+}
+.playerpic {
+	border: 5px solid orange;
+}
+.question {
+	padding: 10px;
+	margin: 0 auto auto auto;
+	width: 60%;
+	text-align:center;
+	height: 10%;
+}
+.questionspic {
+	max-height: 150px;
+	max-width: 900px;
+}
+.cpu {
+	float: right;
+	margin: 0 30px 0 auto;
+}
+.cpupic {
+	border: 5px solid orange;
+}
+.container2 {
+	display: flex;
+	height: 400px;
+	color: white;
+}
+.row1 {
+	display:flex;
+	height: 100px;
+	margin: -1% auto 50px auto;
+}
+.row1 > answer1 + answer2 {
+	flex: 1;
+}
+.row2 {
+	display:flex;
+	height: 100px;
+	margin: 50px auto;
+}
+.row2 > answer3 + answer4 {
+	flex: 1;
+}
+.playerhealth {
+	padding: 10px;
+	margin: 1% auto 0 auto;
+	border: 5px solid; 
+	border-color: #07DBF7;
+	width: 3%;
+	height: 70%;
+}
+.containeranswer {
+	padding: 10px;
+	margin: 1% auto auto auto;
+	width: 60%;
+	height: 15%;
+}
+.cpuhealth {
+	padding: 10px;
+	float: right;
+	margin: 1% 60px 0 auto;
+	border: 5px solid; 
+	border-color:#07DBF7;
+	width: 3%;
+	height: 70%;
+}
+.answers {
+	width: 40%;
+	margin: auto;
+	height: 100%;
+	color: white;
+	font-family: "Optima";
+	font-size: 32px;
+	border: 5px solid white;
+	text-decoration:none;
+	background-color:#060F7B;
+	text-align: center;
+}
+.answers p {
+	margin:0;
+}
+.answers:hover {background-color: #841DC9}
+
+.answers:active {
+  background-color: #841DC9;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.playerhealthfill {
+	height: 100%;
+	width: 100%;
+	background-color: #07DBF7;
+}	
+.cpuhealthfill {
+	height: 100%;
+	width: 100%;
+	background-color: #07DBF7;
+}	
+.row3 {
+	margin:-5% auto;
+}
+.idle {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.nextbutton {
+  float:right;
+  margin: -3% 4%;
+  padding: 5px 15px;
+  font-size: 12px;
+  font-family: "Optima";
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.nextbutton:hover {background-color: #3e8e41}
+
+.nextbutton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.homebutton {
+	position:absolute;
+	background-color: blue;
+	padding: 5px 15px;
+	font-size: 12px;
+	font-family: "Optima";
+	color: white;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+	margin:-3% 4.5%;
+	float: left;
+	text-decoration:none;
+
+}
+.homebutton:hover {background-color: #3e8e41}
+
+.homebutton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#pScore {
+	color:white;
+}
+#cScore {
+	color:white;
+}
+#rand {
+	color:white;
+	float:center;
+}

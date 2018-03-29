@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<link href="D:\HTML\gamifycss.css" rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Indie+Flower|Lobster|Lora|Mina" rel="stylesheet">
+		<link href="D:/unicode.optima.ttf" rel="stylesheet" type='ttf'>
+		<title> Gamify Organic Chemistry Quiz </title>
+	</head>
+	<body>
+		<div class="difficulty">
+			<p> Difficulty </p>
+			<ul>
+				<div class="normal">
+					<li> <a href="/normalpage.html"> Normal </a> </li>
+					<img class="normalface" width="400" height="400" alt="Normal" src="D:\HTML\normalface.jpg"/>
+				</div>
+				<div class="hard">
+					<li> Hard </li>
+					<img class="hardface" width="400" height="400" alt="Hard" src="D:\HTML\hardface.jpg"/>
+				</div>
+				<div class="harder">
+					<li> Harder </li>
+					<img class="harderface" width="300" height="400" alt="Harder" src="D:\HTML\douglas.png"/>
+				</div>
+			</ul>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,82 @@
+@import url("./unicode.optima.ttf");
+
+html body {
+	background-image: url("./background.png"); 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+.name {
+	font-family: "Optima";
+	margin: auto;
+
+}
+.name h1{
+	display:absolute;
+	font-size: 72px;
+	font-weight:50;
+	text-align: center;
+	
+}
+.difficulty {
+	float:right;
+	margin: -7% 15% 0 0;
+	font-size: 60px;
+	color: #ffffff;
+	font-family: "Optima";
+	border-bottom: 1px solid white;
+	
+}
+.difficulty p{
+	border-bottom: 1px solid white;
+}
+ul {
+	height: 2%;
+    list-style-type: none;
+}
+li {
+	margin:25% 0 0 -5%;
+	position: relative;
+}
+.normallink {
+	color: #ffffff;
+	text-decoration: none;
+}
+.hardlink {
+	color: #ffffff;
+	text-decoration: none;
+}
+.harderlink {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.normalface {
+	position: absolute;
+	display:none;
+	margin: -10% 0 0 -45%;
+}
+.normal:hover .normalface {
+	display: block;
+
+}
+.hardface {
+	position: absolute;
+	display:none;
+	margin: -17% 0 0 -45%;
+}
+.hard:hover .hardface {
+	display: block;
+
+}
+.harderface {
+	position: absolute;
+	display:none;
+	margin: -25% 0 0 -42%;
+}
+.harder:hover .harderface {
+	display: block;
+
+}
